@@ -1,0 +1,620 @@
+@font-face {
+  src: url("../fonts/proxi-reg.ttf");
+  font-family: proxi reg;
+}
+@font-face {
+  src: url("../fonts/proxi-bold.ttf");
+  font-family: proxi bold;
+}
+@font-face {
+  src: url("../fonts/proxi-black.ttf");
+  font-family: proxi black;
+}
+@font-face {
+  src: url("../fonts/proxi-semi.ttf");
+  font-family: proxi semi;
+}
+@font-face {
+  src: url("../fonts/proxi-thin.ttf");
+  font-family: proxi thin;
+}
+.header a {
+  font-family: proxi reg;
+  font-size: 15px;
+}
+
+#haq ul li:hover {
+  background-color: deepskyblue !important;
+}
+#haq ul li:hover a:hover {
+  color: #fff !important;
+}
+#haq > a {
+  color: deepskyblue !important;
+  border-radius: 10px;
+  border: 2px solid;
+}
+#haq > a:hover {
+  color: #fff !important;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../imges/macc.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.banner .blr {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.banner .blr .banner-cont a i {
+  font-size: 85px;
+}
+.banner .blr .banner-cont .cont h2 {
+  font-family: proxi thin;
+  margin-bottom: -9px;
+}
+@media all and (max-width: 556px) {
+  .banner .blr .banner-cont .cont h2 {
+    font-size: 48px;
+  }
+}
+.banner .blr .banner-cont .cont a {
+  margin-top: 0px;
+}
+
+.service {
+  background-color: #12a4c4;
+}
+.service h2 {
+  font-family: proxi bold;
+  line-height: 50px;
+}
+@media all and (max-width: 556px) {
+  .service h2 {
+    font-size: 50px;
+  }
+}
+.service hr {
+  border: none;
+  height: 7px;
+  background-color: #fff;
+}
+@media all and (max-width: 556px) {
+  .service hr {
+    height: 5px;
+    width: 98%;
+    margin-right: 30px;
+  }
+}
+.service .service-box {
+  margin: 1rem 0 1rem 0;
+}
+.service .service-box a {
+  border: 2px solid #fff;
+  display: table;
+  text-align: center;
+  padding: 35px;
+  border-radius: 50%;
+}
+.service .service-box i {
+  font-size: 35px;
+  height: 35px;
+  width: 35px;
+}
+.service .service-box .ser_cont h3 {
+  margin-left: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+.service .service-box .ser_cont p {
+  font-size: 14px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.icon a {
+  font-size: 30px;
+  color: #3498db;
+}
+
+.work {
+  background-color: #e6ebec;
+}
+.work h3 {
+  font-family: proxi reg;
+  color: #3f4242;
+  line-height: 50px;
+}
+.work hr {
+  border: none;
+  height: 7px;
+  background-color: #3f4242;
+  width: 260px;
+  margin: 0px;
+}
+.work .pp {
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  line-height: 10px;
+  text-align: center;
+}
+.work .work-box {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.work .work-box:hover .work-title {
+  bottom: 0;
+}
+.work .work-box img {
+  width: 100%;
+  height: 100%;
+}
+.work .work-box .work-title {
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: -73px;
+  left: 0;
+  transition: .5s;
+}
+.work .work-box .work-title h3 {
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #12a4c4;
+  line-height: 25px;
+}
+.work .work-box .work-title p {
+  font-size: 12px;
+  text-align: center;
+  color: darkgray;
+}
+
+.testimonials {
+  background-image: url("../imges/flag.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+.testimonials .blr {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.testimonials .blr #testi p {
+  font-size: 30px;
+}
+.testimonials .blr #testi img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+.testimonials .blr #testi h3 {
+  text-align: center;
+  color: #FFF;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: proxi bold;
+  margin: 10px 0px;
+  padding-bottom: 40px;
+}
+.testimonials .blr #testi ul.golgol li {
+  width: 10px;
+  height: 10px;
+  background-color: #e9e9e9;
+  margin-top: 50px !important;
+}
+.testimonials .blr #testi ul.golgol li.active {
+  background-color: #000;
+}
+
+.skill h3 {
+  font-family: proxi reg;
+  color: #3f4242;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+.skill hr {
+  border: none;
+  height: 7px;
+  background-color: #3f4242;
+  width: 280px;
+  margin: 0px;
+}
+.skill .team {
+  transition: 1s;
+  margin-left: -4px;
+  width: 75%;
+}
+.skill .team img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid red;
+  margin-bottom: 25px;
+}
+.skill .team .social {
+  position: relative;
+}
+.skill .team .social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  position: absolute;
+  bottom: 85px;
+  right: -110px;
+}
+.skill .team .social ul li {
+  display: inline-block;
+}
+.skill .team .social ul li:hover {
+  opacity: .7;
+}
+.skill .team .social ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background-color: #3498db;
+}
+.skill .team .social ul li a i {
+  color: white;
+}
+.skill .team .social-con {
+  width: 50%;
+  margin-left: 150px;
+}
+.skill .team .social-con h3 {
+  width: 200px;
+  font-size: 25px;
+  font-family: proxi bold;
+  color: #3498db;
+  margin-bottom: 10px;
+  line-height: 29px;
+}
+.skill .team .social-con h7 {
+  font-size: 18px;
+  font-family: proxi thin;
+}
+.skill .team .social-con p {
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 25px !important;
+}
+
+.goodwill {
+  background-color: #495057;
+  padding: 20px;
+}
+.goodwill .menu-icon a {
+  text-decoration: none;
+  padding-bottom: 30px;
+  font-size: 50px;
+  color: #fff;
+}
+.goodwill .menu-icon h4 {
+  font-size: 45px;
+  color: #fff;
+}
+.goodwill .menu-icon h4 span {
+  font-size: 18px;
+  color: #fff;
+}
+
+.capa {
+  clear: both;
+  overflow: hidden;
+  /* progressbar */
+  /* progressbar */
+  /* progressbar2 */
+  /* progressbar2 */
+  /* progressbar3 */
+  /* progressbar3 */
+  /* progressbar4 */
+  /* progressbar4 */
+}
+.capa .f-left {
+  float: left;
+  width: 75%;
+}
+.capa .f-left .hph {
+  width: 90%;
+}
+.capa .f-left .hph h4 {
+  color: #6DCFF2;
+}
+.capa .f-right {
+  float: right;
+  width: 25%;
+}
+.capa .f-right .slider {
+  width: 300px;
+  height: auto;
+}
+.capa .f-right .slider .card, .capa .f-right .slider .card-header {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+.capa .f-right .slider .card {
+  box-shadow: 0 2px 25px 0 rgba(110, 138, 208, 0.18);
+  border: 1px solid #000 !important;
+  margin-bottom: 10px;
+}
+.capa .f-right .slider .card .card-header h5 .btn {
+  color: #5BCAF2;
+}
+.capa .f-right .slider .card .card-header h5 .btn a {
+  padding: 2px 15px 2px 0px;
+  text-decoration: none;
+}
+.capa .f-right .slider .card .card-header h5 .btn a i {
+  color: #5BCAF2 !important;
+  font-size: 19px;
+}
+.capa .f-right .slider .card .btn-link {
+  width: 100%;
+  height: 60px;
+  color: #000;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+}
+.capa .f-right .slider .card .btn-link:after {
+  content: '\2212';
+  width: 35px;
+  font-size: 25;
+  text-align: center;
+  border-radius: 5px;
+  right: 15px;
+  top: 17px;
+  position: absolute;
+  background: #e8eeff;
+}
+.capa .f-right .slider .card .collapsed:after {
+  content: '\002B';
+}
+.capa .f-right .slider .card .collapsed:after {
+  background: transform;
+}
+.capa .f-right .slider .card .card-body {
+  background-color: #e8eeff;
+}
+.capa h3 {
+  font-family: proxi reg;
+  color: #3f4242;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+.capa hr {
+  border: none;
+  height: 10px;
+  background-color: #3f4242;
+  width: 290px;
+  margin: 0px;
+}
+.capa #we {
+  width: 75%;
+}
+.capa svg.radial-progress {
+  height: auto;
+  max-width: 200px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+.capa svg.radial-progress circle {
+  fill: rgba(0, 0, 0, 0);
+  stroke: #fff;
+  stroke-dashoffset: 219.91148575129;
+  stroke-width: 10;
+  stroke: #a2ed56;
+}
+.capa svg.radial-progress circle.incomplete {
+  opacity: 0.25;
+}
+.capa svg.radial-progress circle.complete {
+  stroke-dasharray: 219.91148575129;
+}
+.capa svg.radial-progress text {
+  fill: #2BB1E1;
+  text-anchor: middle;
+}
+.capa svg.go {
+  height: auto;
+  max-width: 200px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width: 100%;
+  fill: orange;
+  text-anchor: middle;
+}
+.capa svg.go circle {
+  fill: rgba(0, 0, 0, 0);
+  stroke: #fff;
+  stroke-dashoffset: 219.91148575129;
+  stroke-width: 10;
+  stroke: #83e4e2;
+}
+.capa svg.go circle .incomplete {
+  opacity: 0.25;
+}
+.capa svg.go circle .complete {
+  stroke-dasharray: 219.91148575129;
+}
+.capa svg.back {
+  height: auto;
+  max-width: 200px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width: 100%;
+  fill: orange;
+  text-anchor: middle;
+}
+.capa svg.back circle {
+  fill: rgba(0, 0, 0, 0);
+  stroke: #fff;
+  stroke-dashoffset: 219.91148575129;
+  stroke-width: 10;
+  stroke: #fd6470;
+}
+.capa svg.back circle .incomplete {
+  opacity: 0.25;
+}
+.capa svg.back circle .complete {
+  stroke-dasharray: 219.91148575129;
+}
+.capa svg.goback {
+  height: auto;
+  max-width: 200px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width: 100%;
+  fill: orange;
+  text-anchor: middle;
+}
+.capa svg.goback circle {
+  fill: rgba(0, 0, 0, 0);
+  stroke: #fff;
+  stroke-dashoffset: 219.91148575129;
+  stroke-width: 10;
+  stroke: #fca858;
+}
+.capa svg.goback circle .incomplete {
+  opacity: 0.25;
+}
+.capa svg.goback circle .complete {
+  stroke-dasharray: 219.91148575129;
+}
+
+.email {
+  background-color: #50CBF7;
+  display: block;
+}
+.email h4 {
+  font-size: 30px;
+  color: #fff;
+}
+.email a {
+  border-radius: 15px;
+  background-color: #fff;
+}
+.email a span {
+  color: #50CBF7;
+}
+
+.brand {
+  background-color: #5B6164;
+}
+.brand .sponsers {
+  width: 200px;
+  height: 90px;
+  border: 1px solid #000;
+  background-color: #A7AFB1;
+  margin: 10px 20px;
+  text-align: center;
+  padding: 20px 0px;
+}
+.brand .sponsers a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+}
+.brand .sponsers a i {
+  font-size: 30px;
+}
+
+.contact {
+  background-color: #e9e9e9;
+}
+.contact h3 {
+  font-family: proxi bold;
+  color: #3f4242;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+.contact hr {
+  border: none;
+  height: 10px;
+  background-color: #3f4242;
+  width: 290px;
+  margin: 0px;
+}
+.contact p {
+  color: #3f4242;
+}
+.contact ul li {
+  padding: 20px;
+}
+.contact ul li a {
+  color: #12a4c4;
+  font-size: 20px;
+}
+.contact .communication .input-group {
+  padding-bottom: 10px;
+  font-family: proxi bold;
+  width: 46%;
+  height: auto;
+}
+.contact .input-group {
+  padding-bottom: 20px;
+  font-family: proxi bold;
+}
+.contact .input-group .input-group-prepend .input-group-text {
+  background-color: #fff;
+}
+.contact .input-group .input-group-prepend .input-group-text .text-gup {
+  margin-bottom: 18px;
+}
+.contact .input-group input {
+  border: 1px solid #000;
+  border-radius: 0;
+}
+.contact .input-group .form-control {
+  padding: 12px 10px;
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+.contact button {
+  border-width: 2px solid #000;
+  border-radius: 0px;
+  height: 43%;
+  margin-bottom: 20px;
+  background-color: snow;
+  font-family: proxi bold;
+  color: #12a4c4;
+}
+.contact button i {
+  padding: 6px;
+}
+
+.footer {
+  background-color: #000;
+}
+.footer p {
+  margin: 0;
+  font-size: 15px;
+  color: #555;
+  font-family: proxi thin;
+}
+.footer a {
+  font-size: 30px;
+  font-family: proxi bold;
+}
+
+/*# sourceMappingURL=style.css.map */
