@@ -11,3 +11,4 @@ constractional related web page.This is the frontend part of the static project 
 * CSS3
 * SASS
 * Bootstrap4
+* jQuery
